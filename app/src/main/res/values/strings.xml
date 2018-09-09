@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">WIMCo</string>
+
+    <!-- String for fragment_start.xml -->
+    <string name="welcome_user_to_app">Welcome to WIMCo\nHow may I help to find your car?</string>
+    <string name="license">License</string>
+    <string name="car_description">Description</string>
+
+    <!-- String for fragment_search_license_plate.xml -->
+    <string name="ask_user_for_license_number">Please enter your car\'s license number below</string>
+    <string name="license_hint">License can be either partial or full</string>
+
+    <!-- General usage, for all .xml -->
+    <string name="user_manual">Help</string>
+    <string name="back">Back</string>
+
+</resources>
