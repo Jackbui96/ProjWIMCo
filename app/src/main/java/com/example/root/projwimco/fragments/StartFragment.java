@@ -70,7 +70,12 @@ public class StartFragment extends Fragment implements View.OnClickListener{
                 fragmentTransaction.commit();
                 break;
             case R.id.button_car_description:
-                // do something
+                fragmentManager.popBackStack(BACK_STACK_ROOT_TAG, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+                SearchCarDescriptionFragment searchCarDescriptionFragment
+                        = new SearchCarDescriptionFragment();
+                fragmentTransaction.replace(R.id.main_layout_holder, searchCarDescriptionFragment);
+                fragmentTransaction.addToBackStack(BACK_STACK_ROOT_TAG);
+                fragmentTransaction.commit();
                 break;
             case R.id.button_help:
                 // do something

@@ -20,7 +20,7 @@
         android:layout_below="@+id/text_ask_for_license_number"
         android:ems="10"
         android:gravity="center_horizontal"
-        android:hint="Enter your license here"
+        android:hint="@string/license_helper"
         android:inputType="textCapCharacters"/>
 
     <TextView
@@ -31,5 +31,13 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/edit_text_license_number"
         android:text="@string/license_hint" />
+
+    <Button
+        android:id="@+id/button_submit_license_plate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_license_hint"
+        android:layout_centerHorizontal="true"
+        android:text="@string/license_submit" />
 
 </RelativeLayout>
